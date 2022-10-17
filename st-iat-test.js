@@ -18,7 +18,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
     		    	{word : 'Gov6'},
 		    ],
 		    //Stimulus css (style)
-		    css : {color:'#31b404','font-size':'3em'}
+		    css : {color:'#000000','font-size':'3em'}
 		  },
 
   		attribute1 :
