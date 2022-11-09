@@ -10,12 +10,10 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 		      height : 7 //Used to position the "Or" in the combined block.
 		    },
 		    media : [ //Stimuli content as PIP's media objects
-    		    	{word : 'Gov1'},
-    		    	{word : 'Gov2'},
-    		    	{word : 'Gov3'},
-    		    	{word : 'Gov4'},
-    		    	{word : 'Gov5'},
-    		    	{word : 'Gov6'},
+    		    	{word : 'Government'},
+    		    	{word : 'U.S. Government'},
+    		    	{word : 'Federal'},
+
 		    ],
 		    //Stimulus css (style)
 		    css : {color:'#000000','font-size':'3em'}
@@ -30,15 +28,16 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 				height : 7 //Used to position the "Or" in the combined block.
 			},
 			media : [ //Stimuli
-				{word: 'Neg1'},
-				{word: 'Neg2'},
-				{word: 'Neg3'},
-				{word: 'Neg4'},
-				{word: 'Neg5'},
-				{word: 'Neg6'}
+				{word: 'Immoral'},
+				{word: 'Inexperienced'},
+				{word: 'Incapable'},
+				{word: 'Untrustworthy'},
+				{word: 'Unreliable'},
+				{word: 'Undependable'},
+				{word: 'Dishonest'}
 			],
 			//Can change color and size of the targets here.
-			css : {color:'#31b404','font-size':'3em'}
+			css : {color:'#000000','font-size':'3em'}
 			},
 		attribute2 :
 			{
@@ -49,15 +48,16 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 				height : 7 //Used to position the "Or" in the combined block.
 			},
 			media : [ //Stimuli
-				{word: 'Pos1'},
-				{word: 'Pos2'},
-				{word: 'Pos3'},
-				{word: 'Pos4'},
-				{word: 'Pos5'},
-				{word: 'Pos6'}
+				{word: 'Moral'},
+				{word: 'Experienced'},
+				{word: 'Capable'},
+				{word: 'Trustworthy'},
+				{word: 'Reliable'},
+				{word: 'Dependable'},
+				{word: 'Honest'}
 			],
 			//Can change color and size of the targets here.
-			css : {color:'#31b404','font-size':'3em'}
+			css : {color:'#000000','font-size':'3em'}
 			},
 
   base_url : {//Where are your images at?
