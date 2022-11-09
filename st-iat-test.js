@@ -28,7 +28,6 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 				height : 7 //Used to position the "Or" in the combined block.
 			},
 			media : [ //Stimuli
-				{word: 'Immoral'},
 				{word: 'Inexperienced'},
 				{word: 'Incapable'},
 				{word: 'Untrustworthy'},
@@ -48,7 +47,6 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 				height : 7 //Used to position the "Or" in the combined block.
 			},
 			media : [ //Stimuli
-				{word: 'Moral'},
 				{word: 'Experienced'},
 				{word: 'Capable'},
 				{word: 'Trustworthy'},
